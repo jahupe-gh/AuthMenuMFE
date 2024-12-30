@@ -96,7 +96,7 @@ const Login = () => {
                   onChange={(e) => setEmail(e.target.value)}
                 />
               </Box>
-              <Box gridColumn="span 12" mb={4}>
+              <Box gridColumn="span 12" mb={6}>
                 <TextField
                   variant="outlined"
                   required
@@ -111,15 +111,17 @@ const Login = () => {
                 />
               </Box>
             </Box>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              color="primary"
-              className={classes.submit}
-            >
-              Sign In
-            </Button>
+            <Box gridColumn="span 12" mb={2}>
+              <Button
+                type="submit"
+                fullWidth
+                variant="contained"
+                color="primary"
+                className={classes.submit}
+              >
+                Sign In
+              </Button>
+            </Box>
           </form>
         </Paper>
       </Container>
