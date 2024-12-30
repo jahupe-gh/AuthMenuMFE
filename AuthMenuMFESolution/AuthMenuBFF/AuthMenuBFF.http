@@ -1,0 +1,6 @@
+@AuthMenuBFF_HostAddress = http://localhost:5265
+
+GET {{AuthMenuBFF_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
